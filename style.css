@@ -35,9 +35,14 @@ background-color: #507c61;
 }
 .header-logo-c{
     display: flex;
-    gap:65px;
-    align-items: center;
+    justify-content: space-between;
+    
 
+}
+.header-logo-img{
+    display:flex;
+    gap: 12px;
+    
 }
 .header-nav{
     display: flex;
@@ -153,19 +158,24 @@ border-radius: 4px;
 
 .info{
     display: flex;
-    background-color: white;
+    background-color: rgb(233, 224, 218);
     justify-content: space-between;
+    
+}
+.info h2{
+    font-size: 60px;
 }
 .info-c{
     display: flex;
     flex-direction: column;
 
     max-width: 1260px;
+    padding: 133px 133px 133px 133px;
 }
 .info-boxes{
     display: flex;
-   
-
+   justify-content: space-around;
+gap: 35px;
 align-items: flex-start;
 }
 .info-box{
