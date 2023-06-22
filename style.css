@@ -77,7 +77,37 @@ background: #F16F4F;
     transition: all .6s;
     left: 0;
   }
-  
+  .header-btn-m div:nth-child(1) {
+    top: 0;
+  }
+  .header-btn-m div:nth-child(2), .header-btn-m div:nth-child(3){
+    top: 10px;
+  }
+  .header-btn-m div:nth-child(4) {
+    top: 20px;
+    
+  }
+/* focus active hover */
+
+  .header-btn-m:hover div:nth-child(1)  {
+    top: 10px;
+    width: 0;
+    left: 50%;
+  }
+  .header-btn-m:hover div:nth-child(2)  {
+   transform: rotate(45deg);
+  }
+  .header-btn-m:hover div:nth-child(3)  {
+    transform: rotate(-45deg);
+   }
+
+  .header-btn-m:hover div:nth-child(4) {
+    top :10px;
+    width: 0;
+    left: 50%;
+  }
+
+
        /* hero */
 
        .hero {
@@ -117,8 +147,7 @@ border-radius: 4px;
 }
 
     
-
-
+  
 
 /* section info */
 
