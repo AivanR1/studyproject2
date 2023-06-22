@@ -107,11 +107,12 @@ border-radius: 4px;
 .info{
     display: flex;
     background-color: white;
-
+    justify-content: space-between;
 }
 .info-c{
     display: flex;
     flex-direction: column;
+
     max-width: 1260px;
 }
 .info-boxes{
@@ -125,6 +126,5 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 16px;
-align-self: stretch;
 max-width: 360px;
 }
