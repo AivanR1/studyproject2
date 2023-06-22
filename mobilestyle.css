@@ -1,3 +1,10 @@
 @media all and(max-width:600px) {
-    
+    .header-btn-m{
+        
+    }
 }
+@media all and (min-width:600px){
+    .header-btn-m{
+      display: none ;
+    }
+  }

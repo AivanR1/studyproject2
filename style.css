@@ -68,7 +68,7 @@ background: #F16F4F;
     transition: all 1s;
     
   }
-  .info-btn div {
+  .header-btn-m div {
     position: absolute;
     height: 3px;
     width: 100%;
