@@ -23,7 +23,7 @@ a{
 .header-c{
 /* background: url(./images/Rectangle\ 2.png); */
 display: flex;
-padding: 24px 88px 24px 77px;
+/* padding: 24px 88px 24px 77px; */
 align-items: center;
 justify-content: space-between;
 max-width: 1440px;
@@ -36,7 +36,7 @@ background-color: #507c61;
 .header-logo-c{
     display: flex;
     justify-content: space-between;
-    
+    gap: 30px;
 
 }
 .header-logo-img{
@@ -175,9 +175,9 @@ border-radius: 4px;
 }
 .info-boxes{
     display: flex;
-   justify-content: space-around;
-gap: 35px;
-align-items: flex-start;
+    justify-content: space-around;
+    gap: 35px;
+    align-items: flex-start;
 }
 .info-box{
 display: flex;
