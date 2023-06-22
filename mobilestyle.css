@@ -1,9 +1,12 @@
-@media all and(max-width:600px) {
-    .header-btn-m{
-        
+@media all and (max-width:720px) {
+  .header-nav{
+    display: none;
+  }
+  .header-btn{
+        display: none;
     }
 }
-@media all and (min-width:600px){
+@media all and (min-width:720px){
     .header-btn-m{
       display: none ;
     }
