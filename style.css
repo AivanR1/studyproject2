@@ -212,7 +212,7 @@ max-width: 1200px; */
 .info-c {
   display: flex;
   flex-direction: column;
-
+  padding: 0 33px ;
   /* padding: 133px 133px 133px 133px; */
 }
 .info-boxes {
@@ -231,23 +231,64 @@ max-width: 1200px; */
 
 
 
+/* best-boxes */
+
+.best-prod{
+display: flex;
+}
 
 
 
-
-.best-c {
-  height: 200px;
-  width: 1400px;
-  background-color: red;
+ .best-c {
+  
+  background-color: rgb(240, 249, 215);
   display: flex;
+  flex-direction: column;
   gap: 35px;
-  overflow-x: auto;
-  overflow-y: hidden;
+  height: 800px;
+  /* overflow-x: auto;
+  overflow-y: hidden; */
 
+}
+.best-c h2{
+  font-size: 60px;
 }
 .boxes {
-  height: 200px;
-  min-width: 100px;
-
-  background-color: #000;
+  display: flex;
+  
+  flex-direction: row;
+  /* background-color: #000; */
+  gap: 24px;
 }
+
+.box-img{
+  display: flex;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  height: 100%;
+  background-color: #F8F4F2;
+  padding: 32px 32px 32px 32px;
+  
+}
+.box{
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.box-text{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.box-text p{
+  color:grey
+}
+.cost {
+ color: #f26440 !important;
+}
+
+
+/* Sofa */
