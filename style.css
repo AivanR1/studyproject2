@@ -248,6 +248,8 @@ display: flex;
   gap: 35px;
   height: 800px;
   padding-left:  103px; ;
+  padding-top: 160px;
+  padding-bottom: 114px;
   /* overflow-x: auto;
   overflow-y: hidden; */
 
@@ -257,7 +259,7 @@ display: flex;
 }
 .boxes {
   display: flex;
-  
+  margin-top: 72px;
   flex-direction: row;
   /* background-color: #000; */
   gap: 24px;
@@ -282,6 +284,7 @@ display: flex;
 .box-text{
   display: flex;
   flex-direction: column;
+  gap: 8px;
   
   
 }
