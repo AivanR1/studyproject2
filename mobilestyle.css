@@ -11,13 +11,19 @@
 }
 .info-c {
   padding-left: 20px;
+  padding-top: 89px;
+  padding-bottom: 69px;
 }
 .info h2 {
-  padding: 24px 89px 24px 53px;
+  display: flex;
+  justify-content: center;
 }
 .info-boxes {
 
-  flex-wrap: wrap;}
+  flex-wrap: wrap;
+}
+.info-box {
+  margin-top: 60px;}
 @media all and (min-width:719px){
     .header-btn-m{
       display: none ;

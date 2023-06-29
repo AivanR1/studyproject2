@@ -170,7 +170,7 @@ max-width: 1200px; */
  */
 
 
-.hero h1 {
+.hero-c-block h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -186,16 +186,17 @@ max-width: 1200px; */
 }
 
 .hero-title-btn {
-  display: inline-flex;
+  display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 12px 16px;
   gap: 16px;
   margin-top: 40px;
-  width: 242px;
-  height: 56px;
-
+  max-width: 242px;
+  width: 100%;
+  max-height: 56px;
+height: 100%;
   background: linear-gradient(94.92deg, #f26440 -23.03%, #ef7d60 122.53%);
   border-radius: 4px;
 }
@@ -206,23 +207,28 @@ max-width: 1200px; */
   background-color: rgb(208, 170, 192);
   justify-content: space-between;
 } */
+.info{
+  
+}
 .info h2 {
   font-size: 60px;
-  padding-left: 35px;
+  
 }
 .info-c {
   display: flex;
   
   flex-direction: column;
-  padding-left:  103px;
+  
   /* padding: 133px 133px 133px 133px; */
 }
 .info-boxes {
   display: flex;
-
-  justify-content: space-around;
-  gap: 35px;
+flex-direction: row;
+justify-content: space-between;
+  margin-right: 15px ;
   align-items: flex-start;
+  margin-top: 60px;
+  
 }
 .info-box {
   display: flex;
@@ -231,7 +237,11 @@ max-width: 1200px; */
   gap: 16px;
   
 }
-
+.info-o{
+display: flex;
+color: #f26440;
+gap: 8px;
+}
 
 
 /* best-boxes */
@@ -249,6 +259,7 @@ display: flex;
   flex-direction: column;
   gap: 35px;
   max-height: 800px;
+  height: 100%;
   padding-left:  103px; ;
   padding-top: 160px;
   padding-bottom: 114px;
@@ -331,8 +342,9 @@ display: flex;
   
 }
 .sofa-bg{
-  width: 100%;
   
+  max-width:100%;
+  height:auto;
 }
 .sofa h2{
   color: #000;
