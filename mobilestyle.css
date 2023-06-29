@@ -9,6 +9,15 @@
         display: none;
     }
 }
+.info-c {
+  padding-left: 20px;
+}
+.info h2 {
+  padding: 24px 89px 24px 53px;
+}
+.info-boxes {
+
+  flex-wrap: wrap;}
 @media all and (min-width:719px){
     .header-btn-m{
       display: none ;
