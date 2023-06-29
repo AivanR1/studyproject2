@@ -156,6 +156,7 @@ a {
   flex-direction: column;
   align-items: center;
   padding-top: 35px;
+  
 }
 .hero-bg {
   width: 100%;
@@ -212,7 +213,7 @@ max-width: 1200px; */
 .info-c {
   display: flex;
   flex-direction: column;
-  padding: 0 33px ;
+  padding-left:  103px;
   /* padding: 133px 133px 133px 133px; */
 }
 .info-boxes {
@@ -246,6 +247,7 @@ display: flex;
   flex-direction: column;
   gap: 35px;
   height: 800px;
+  padding-left:  103px; ;
   /* overflow-x: auto;
   overflow-y: hidden; */
 
@@ -292,3 +294,44 @@ display: flex;
 
 
 /* Sofa */
+.sofa{
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+  }
+  .sofa-c-block {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 103px;
+}
+.button{
+  display: flex;
+  color: 
+  
+}
+.sofa-btn{
+  background-color:#F17252 ;
+  padding: 12px 16px;
+  
+}
+.sofa-bg{
+  width: 100%;
+  
+}
+.sofa h2{
+  color: #000;
+font-size: 60px;
+}
+.orange{
+  color: #f26440;
+}
+.a-colors{
+  margin-top: 16px;
+  display: flex;
+  gap: 14px;
+}
