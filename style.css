@@ -146,6 +146,8 @@ a {
 } */
 .hero-c{
   position: relative;
+  width: 100%;
+  max-width: 1800px;
   display: flex;
   justify-content: center;
 }
@@ -167,22 +169,22 @@ height: 800px; */
 /* width: 500px; */
 /* width: 100%;
 max-width: 1200px; */
- */
 
-
-.hero-c-block h1 {
+.hero p{
   display: flex;
-  flex-direction: row;
+  font-size: 20px;
+}
+
+.hero-h1{
+  display: flex;
+  
   justify-content: center;
-  align-items: center;
+  font-size: 14vh;
   color: #000;
   text-align: center;
-  font-size: 88px;
-  font-family: Poppins;
-  font-weight: 600;
-  line-height: 94px;
-  letter-spacing: -2.64px;
-  margin-top: 10px;
+  
+  
+  
 }
 
 .hero-title-btn {
@@ -208,7 +210,7 @@ height: 100%;
   justify-content: space-between;
 } */
 .info{
-  
+  display: flex;
 }
 .info h2 {
   font-size: 60px;
@@ -226,7 +228,7 @@ height: 100%;
 flex-direction: row;
 justify-content: space-between;
   margin-right: 15px ;
-  align-items: flex-start;
+  align-items: stretch;
   margin-top: 60px;
   
 }
@@ -236,6 +238,10 @@ justify-content: space-between;
   align-items: flex-start;
   gap: 16px;
   
+}
+.info-box p{
+  display: flex;
+  align-items: baseline;
 }
 .info-o{
 display: flex;
@@ -247,22 +253,23 @@ gap: 8px;
 /* best-boxes */
 
 .best-prod{
-display: flex;
+padding-top: 160px;
+padding-bottom: 114px;
+background-color: rgb(240, 249, 215);
 }
 
 
 
  .best-c {
   
-  background-color: rgb(240, 249, 215);
   display: flex;
   flex-direction: column;
   gap: 35px;
-  max-height: 800px;
-  height: 100%;
-  padding-left:  103px; ;
-  padding-top: 160px;
-  padding-bottom: 114px;
+
+  /* max-height: 800px;
+  height: 100%; */
+  /* padding-left:  103px; ; */
+  
   /* overflow-x: auto;
   overflow-y: hidden; */
 
@@ -319,14 +326,19 @@ display: flex;
     justify-content: center;
 
   }
+  .sofa-c {
+    display: flex;
+    align-items: center;
+
+  }
   .sofa-c-block {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     display: flex;
     flex-direction: column;
-    padding-top: 141px;
-    padding-left: 103px;
-    padding-bottom: 183px;
+    /* padding-top: 141px;
+    padding-left: 103px; */
+    /* padding-bottom: 183px; */
 }
 .button{
   display: flex;
@@ -344,6 +356,7 @@ display: flex;
 .sofa-bg{
   
   max-width:100%;
+  min-height: 450px;
   height:auto;
 }
 .sofa h2{
@@ -365,5 +378,46 @@ font-size: 60px;
   margin-top: 16px;
   display: flex;
   gap: 16px;
+  
+}
+.contact-c{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-text{
+  padding-top: 142px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.contacts{
+display: flex;
+justify-content: space-between;
+max-width: 340px;
+}
+.contact-btn{
+
+}
+.contact-images{
+  
+   display: flex;
+  position: relative;
+  right: 0;
+  top: 0;
+
+
+}
+.cont-img1{
+  width: auto;
+  height: 25%;
+  
+}
+.cont-img2{
+  width: 100%;
+  height: 45%;
+  align-items: flex-end;
+}
+.cont-img3{
   
 }
