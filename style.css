@@ -220,7 +220,7 @@ height: 100%;
   display: flex;
   
   flex-direction: column;
-  
+  padding-bottom: 142px;
   /* padding: 133px 133px 133px 133px; */
 }
 .info-boxes {
@@ -389,28 +389,33 @@ font-size: 60px;
   padding-top: 142px;
   display: flex;
   flex-direction: column;
-  position: relative;
+  align-items: flex-start;
 }
 .contacts{
 display: flex;
-justify-content: space-between;
+
 max-width: 340px;
 }
 .contact-btn{
-
+margin-top: 72px;
+display: flex;
 }
 .contact-images{
   
    display: flex;
-  position: relative;
+  
   right: 0;
   top: 0;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-width: 100%;
 
 
 }
 .cont-img1{
   width: auto;
   height: 25%;
+  j
   
 }
 .cont-img2{
