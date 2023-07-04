@@ -21,4 +21,16 @@
  у самого конт долж быть стиль оверфлоу
 
 
+.one , .two {}
+/* <div class="one "> </div> */
+/* <div class="two "> </div> */
+
+.one.two {}
+/* <div class="one two"> </div> */
+/* <div class="two one"> </div> */
+.one .two {}
+/* <div class="one">  
+//  <div clas="two"></div> 
+</div> */
+
  atributes
