@@ -389,7 +389,7 @@ max-width: 1200px; */
   /* padding-top: 142px; */
   display: flex;
   flex-direction: column;
-
+z-index: 2;
   max-width: 740px;
   position: relative;
 }
@@ -612,9 +612,11 @@ body div.cont #elems {
   justify-content: space-between;
   align-items: center;
 }
+
 .comments-img{
   align-items: center;
 }
+
 .comments-h h2{
   color: #000;
   font-size: 60px;
@@ -623,15 +625,47 @@ body div.cont #elems {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -1.8px;}
+ .comment-l{
+    display: flex;
+    gap: 47px;
+    width: 836px;
+    width: 100%;
+    background-color: bisque;
+    padding: 48px 66px 48px 48px;
+   }
 
-.comment-l{
-  display: flex;
-  gap: 47px;
-  width: 836px;
-  width: 100%;
-  background-color: bisque;
-  padding: 48px 66px 48px 48px;
+  .comment-text{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
+.comment-text img{
+  width: 32px;
+height: 32px;
+}
+.comment-text p{
+  gap: 25px;
+}
+
+ 
+  
+
+.comment-big{
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+  color: var(--neutral-black, #0F3141);
+font-size: 24px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: -0.72px;
+}
+.comment-last{
+  /* margin-top: 30px; */
+}
+/* projects */
+
 .project-c{
 padding: 129px 0px 147px;
 background-color: #0F3141;
@@ -647,19 +681,19 @@ line-height: normal;
 letter-spacing: -1.8px;
 }
 .project-c-img{
-  margin-top: 40px;
-display: flex;
-width: 100%;
+  margin-top: 80px;
+ display: flex;
+   width: 100%;
   height: 100%;
-  border-radius: 20%;
+ 
 }
 .project-images{
   display: flex;
-  border-radius: 20%;
+  
   width: 400px;
-height: 580px;
+  height: 580px;
   gap: 40px;
-
+  height: 100%;
 }
 .project-img1 img{
   border-radius: 7%;}

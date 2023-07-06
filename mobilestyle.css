@@ -35,12 +35,17 @@
 }
 .info-boxes {
   flex-wrap: wrap;
+  
 }
 .info-box {
   margin-top: 60px;
 }
+.project-c-img{
+  
 }
-
+.project-images{
+  flex-wrap: wrap;
+  }
 @media all and (min-width: 720px) {
   .header-btn-m {
     display: none;
