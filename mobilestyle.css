@@ -14,10 +14,24 @@
   .header-btn {
     display: none;
   }
+  .best-c{
+    
+    
+  }
+  .boxes-content{
+    display: flex;
+    
+  }
+
   .boxes{
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    overflow-x: none;
   }
-  .
+  .box-img{
+    
+  }
   .sofa-bg {
     display: none;
   }
@@ -73,6 +87,13 @@ align-items: center;
   .comment-r{
     display: none;
   }
+  .contact-images {
+left: 0;
+top:600px;
+}
+.foot-r {
+  display: none;
+}
 }
 @media all and (min-width: 720px) {
   
