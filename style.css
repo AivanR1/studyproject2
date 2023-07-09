@@ -24,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100%;
+  /* min-height: 100%; */
 }
 a {
   color: black;
@@ -390,6 +390,7 @@ max-width: 1200px; */
   display: flex;
   position: relative;
   padding: 142px 0 270px 0;
+
 }
 
 .contact-text {
@@ -412,7 +413,7 @@ margin-bottom: 24px;
 
 }
 .contact-text p{
-  color: var(--neutral-black, #0F3141);
+  color:  #0F3141;
 font-size: 20px;
 font-family: Inter;
 font-style: normal;
@@ -495,12 +496,12 @@ opacity: 0.699999988079071;
 
 /* footer */
 .footer {
+  background-color: #0F3141;
 }
 .footer-c {
   padding:64px 0px 38px 0px;
   
  
-  background-color: #0F3141;
   display: flex;
   flex-direction: column;
   color: white;
@@ -663,19 +664,20 @@ height: 32px;
   gap: 25px;
 }
 
- 
+
   
 
 .comment-big{
   /* padding-top: 24px;
   padding-bottom: 24px; */
-  color: var(--neutral-black, #0F3141);
+  color: #0F3141;
 font-size: 24px;
 font-family: Poppins;
-font-style: normal;
+
 font-weight: 600;
-line-height: 36px;
+/* line-height: 36px; */
 letter-spacing: -0.72px;
+/* letter-spacing: 20px; */
 }
 .comment-last{
   /* margin-top: 30px; */
@@ -708,22 +710,31 @@ letter-spacing: -1.8px;
 .project-images{
   display: flex;
   
-  width: 400px;
+  max-width: 400px;
   height: 580px;
   gap: 40px;
-  height: 100%;
+  
 }
 .project-img1 img{
-  border-radius: 7%;}
+  border-radius: 7%;
+  min-width: 160px;
+  min-height: 208px;}
+
 
   .project-img2 img{
     border-radius: 7%;
+    min-width: 160px;
+  min-height: 208px;
 }
 .project-img3 img{
   border-radius: 7%;
+  min-width: 160px;
+  min-height: 208px;
 }
 .project-img4 img{
   border-radius: 7%;
+  min-width: 160px;
+  min-height: 208px;
 }
 .project-text{
   display: flex;
