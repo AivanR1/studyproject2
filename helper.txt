@@ -34,3 +34,9 @@
 </div> */
 
  atributes
+
+animation-duration:
+
+animation-delay:
+
+animation-composition:

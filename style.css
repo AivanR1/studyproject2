@@ -173,7 +173,9 @@ height: 800px; */
 /* width: 500px; */
 /* width: 100%;
 max-width: 1200px; */
-
+.hero-img-m{
+  display: none;
+}
 .hero p {
   display: flex;
   font-size: 20px;
@@ -663,7 +665,9 @@ gap: 24px;
 width: 400px;
 
 }
+
 .comment-text img{
+  display: block;
   width: 32px;
 height: 32px;
 }
