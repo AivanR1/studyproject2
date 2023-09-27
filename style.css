@@ -4,8 +4,11 @@
   background-color: transparent;
   text-decoration: none;
   border: none;
+/* cursor: url(./images/cursor.png) 1 1, auto; */
 
+ 
 }
+
 
 body {
   /* font-family: "Inter", sans-serif; */
@@ -15,6 +18,7 @@ body {
   align-items: center;
   height: 100%;
   overflow-x: hidden;
+  cursor: url('./images/cursor.png'), auto ; 
 }
 .maxW1400 {
   width: 98%;
@@ -261,9 +265,8 @@ max-width: 1200px; */
 .best-prod {
   padding-top: 160px;
   padding-bottom: 114px;
-  background-color: rgb(240, 249, 215);
+  background-color: white;
 }
-
 .best-c {
   display: flex;
   flex-direction: column;
@@ -300,7 +303,7 @@ max-width: 1200px; */
   height: 100%;
   width: 100%;
   width: calc((100vw - 1400px) / 2 + 1400px);
-  background-color: grey;
+  background-color: white;
   overflow-x: auto;
   /* background-color: #000; */
   gap: 24px;
@@ -308,7 +311,7 @@ max-width: 1200px; */
 }
 .box {
   /* width: 240px; */
-  background-color: green;
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
 }
@@ -328,7 +331,7 @@ max-width: 1200px; */
   gap: 8px;
 }
 .box-text p {
-  color: grey;
+  color: rgb(112, 111, 111);
 }
 .cost {
   color: #f26440 !important;
@@ -617,7 +620,7 @@ body div.cont #elems {
   height: 100%;
   width: 100%;
   width: calc((100vw - 1400px) / 2 + 1400px);
-  background-color: grey;
+  background-color: bisque;
   overflow-x:auto;
   gap: 48px;
 }
@@ -662,7 +665,7 @@ body div.cont #elems {
 display: flex;
 flex-direction: column;
 gap: 24px;
-width: 400px;
+max-width: 400px;
 
 }
 

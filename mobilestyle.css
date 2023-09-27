@@ -118,12 +118,17 @@
   .project-img img{
     width: 100%;
   }
+  .comments-cont{
+    flex-wrap: wrap;
+  }
   .comment-l{
     flex-direction: column;
+    justify-content: center;
   }
   .comments-conteiner {
     height: 100%;}
  .comment-l img{
+  justify-content: end;
 width: 144px;
 height: 200px; }
 .comment-text img{
@@ -163,24 +168,26 @@ justify-content: flex-end;
   position: static !important;
   height: auto;
   width: 50%;
-
+z-index: 1;
 }
 .cont-img2{
   min-width: auto;
   position: absolute;
-  right: 50px;
+  left:  32%;
   min-width: 169px;
-flex:1 1 auto;
+height: 56%;
+z-index: 2;
   
 
 }
 .cont-img2 img{
-  width: 100%;
+  width: 105%;
   min-width: 169px;
 }
 .cont-img1{
  left: 0;
-
+ z-index: 3;
+width: 44%;
 }
 .foot-r {
   display: none;
